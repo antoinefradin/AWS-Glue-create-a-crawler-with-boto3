@@ -14,10 +14,11 @@ try:
         Targets={
             'S3Targets': [
                 {
-                    'Path': 's3://antoinefrd-github-demo-glue-1/input/customers',
+                    'Path': 's3://antoinefrd-github-demo-glue-1/input/customers/',
                 },
             ]
         },
+        TablePrefix = "_csv",
         SchemaChangePolicy={
             'UpdateBehavior': 'UPDATE_IN_DATABASE',
             'DeleteBehavior': 'DEPRECATE_IN_DATABASE'
@@ -37,4 +38,5 @@ except client.exceptions.AlreadyExistsException as e:
        print("Crawler already created")
    else:
        print("Unexpected error: %s\n%s" % (e, e.response))
+
 
