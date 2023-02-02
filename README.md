@@ -66,6 +66,6 @@ $ env
 ## **Sources:**
 - Resolving the Boto3 NoCredentialsError in Python: https://rollbar.com/blog/python-boto3-nocredentialserror/
 
-- 
+- Create IAM Role & Policy: https://www.learnaws.org/2022/01/21/aws-boto3-glue-athena/#how-to-create-an-iam-role
 
 
