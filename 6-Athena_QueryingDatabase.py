@@ -3,7 +3,7 @@ import json
 
 athena_client = boto3.client('athena')
 
-# List all crawlers 
+# Querying with Athena
 bucket = "antoinefrd-github-demo-glue-1/athena-results/"
 database_name = "input"
 table_name = "csv_customers"
