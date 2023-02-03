@@ -30,4 +30,4 @@ print("\tstatus:",response['Crawler']['State'])
 # See the generated Table
 response = client.get_tables(DatabaseName="input")
 print("\nTable:")
-print(response)#['TableList'][0])
+print(response['TableList'][0])

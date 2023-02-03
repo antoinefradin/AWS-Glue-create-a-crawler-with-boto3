@@ -18,7 +18,7 @@ try:
                 },
             ]
         },
-        TablePrefix = "_csv",
+        TablePrefix = "csv_",
         SchemaChangePolicy={
             'UpdateBehavior': 'UPDATE_IN_DATABASE',
             'DeleteBehavior': 'DEPRECATE_IN_DATABASE'
